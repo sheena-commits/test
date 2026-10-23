@@ -1,0 +1,118 @@
+dataModelId: a51509a1-5776-4bec-8599-a7eb68115c4d
+name: My Data Model
+url: https://staging.sigmacomputing.io/papercranestaging/data-model/My-Data-Model-51vlAmVZup2odFinn41UKN
+documentVersion: 2
+latestDocumentVersion: 2
+ownerId: rWE6PtBwuEhjDbMfZh2n4na4kuzS4
+folderId: 476b5504-3ebf-4eab-8c07-4f7895e7ac73
+createdBy: rWE6PtBwuEhjDbMfZh2n4na4kuzS4
+updatedBy: rWE6PtBwuEhjDbMfZh2n4na4kuzS4
+createdAt: '2026-10-23T16:02:07.719Z'
+updatedAt: '2026-10-23T16:02:29.083Z'
+schemaVersion: 1
+pages:
+  - id: OsMfhFBV6t
+    name: Page 1
+    elements:
+      - id: '-iYfVt5hF1'
+        kind: table
+        source:
+          connectionId: 1653d1af-46f3-4bcf-a754-6fefc004332f
+          kind: warehouse-table
+          path:
+            - RETAIL
+            - BIG_BUYS
+            - BIG_BUYS_POS
+        columns:
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/ORDER_NUMBER
+            formula: '[BIG_BUYS_POS/Order Number]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/DATE
+            formula: '[BIG_BUYS_POS/Date]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/PRODUCT_KEY
+            formula: '[BIG_BUYS_POS/Product Key]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/SKU_NUMBER
+            formula: '[BIG_BUYS_POS/Sku Number]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/QUANTITY
+            formula: '[BIG_BUYS_POS/Quantity]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/COST
+            formula: '[BIG_BUYS_POS/Cost]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/PRICE
+            formula: '[BIG_BUYS_POS/Price]'
+          - id: oOAdZWw7Jo
+            formula: '[Price] * [Quantity]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/PRODUCT_TYPE
+            formula: '[BIG_BUYS_POS/Product Type]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/PRODUCT_FAMILY
+            formula: '[BIG_BUYS_POS/Product Family]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/PRODUCT_LINE
+            formula: '[BIG_BUYS_POS/Product Line]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/BRAND
+            formula: '[BIG_BUYS_POS/Brand]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/PRODUCT_NAME
+            formula: '[BIG_BUYS_POS/Product Name]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/PRODUCT_TIER
+            formula: '[BIG_BUYS_POS/Product Tier]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/MERCHANT_ID
+            formula: '[BIG_BUYS_POS/Merchant Id]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/STORE_NAME
+            formula: '[BIG_BUYS_POS/Store Name]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/STORE_KEY
+            formula: '[BIG_BUYS_POS/Store Key]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/STORE_TIER
+            formula: '[BIG_BUYS_POS/Store Tier]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/STORE_TIER_ORDER
+            formula: '[BIG_BUYS_POS/Store Tier Order]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/STORE_REGION
+            formula: '[BIG_BUYS_POS/Store Region]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/STORE_STATE
+            formula: '[BIG_BUYS_POS/Store State]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/STORE_CITY
+            formula: '[BIG_BUYS_POS/Store City]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/STORE_ZIP_CODE
+            formula: '[BIG_BUYS_POS/Store Zip Code]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/STORE_LATITUDE
+            formula: '[BIG_BUYS_POS/Store Latitude]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/STORE_LONGITUDE
+            formula: '[BIG_BUYS_POS/Store Longitude]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/COUNTY_NAME
+            formula: '[BIG_BUYS_POS/County Name]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/ZIP_POPULATION
+            formula: '[BIG_BUYS_POS/Zip Population]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/CUST_KEY
+            formula: '[BIG_BUYS_POS/Cust Key]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/CUSTOMER_NAME
+            formula: '[BIG_BUYS_POS/Customer Name]'
+          - id: inode-3AOnMfFDRbJ7d0y5ag9g9k/CUST_JSON
+            formula: '[BIG_BUYS_POS/Cust Json]'
+        order:
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/ORDER_NUMBER
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/DATE
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/PRODUCT_KEY
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/SKU_NUMBER
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/QUANTITY
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/COST
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/PRICE
+          - oOAdZWw7Jo
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/PRODUCT_TYPE
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/PRODUCT_FAMILY
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/PRODUCT_LINE
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/BRAND
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/PRODUCT_NAME
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/PRODUCT_TIER
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/MERCHANT_ID
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/STORE_NAME
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/STORE_KEY
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/STORE_TIER
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/STORE_TIER_ORDER
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/STORE_REGION
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/STORE_STATE
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/STORE_CITY
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/STORE_ZIP_CODE
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/STORE_LATITUDE
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/STORE_LONGITUDE
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/COUNTY_NAME
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/ZIP_POPULATION
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/CUST_KEY
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/CUSTOMER_NAME
+          - inode-3AOnMfFDRbJ7d0y5ag9g9k/CUST_JSON
+kind: data-model
